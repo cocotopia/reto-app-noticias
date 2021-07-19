@@ -5,13 +5,7 @@ Bienvenido(a) a tu primera asignación. A continuación te explicamos los detall
 ## Comencemos 🚀
 El objetivo es que puedas desarrollar una pequeña aplicación usando ReactJS ⚛️ y hacer uso de una API REST por ejemplo de noticias.
 
-_Version Desktop_
-
-![Alt text](https://xn--jorgedueas-09a.com/img/vista_desktop.png "Title")
-
-_Version Mobile_
-
-![Alt text](https://xn--jorgedueas-09a.com/img/vista_mobile.png "Title")
+![Alt text](https://xn--jorgedueas-09a.com/img/reto_preview.png "Title")
 
 > - Implementar un cabecera de página donde mostrará un logo o título.
 > - En la misma cabecera al lado derecho mostrar los botones para que el usuario pueda registrarse o iniciar sesión. (opcional - mostrar los componentes vistos en el primer taller).
@@ -58,7 +52,6 @@ NOTA: necesitarás registrate en el sitio web del servicio para obtener tu API K
 - Puedes usar otra API (películas, vuelos, artículos, etc).
 - Realiza test de tus componentes.
 - Despliega tu aplicación usando [Netlify](https://www.netlify.com), [Heroku](https://www.heroku.com), [Zeit](https://zeit.co) o el que desees.
-- La aplicación es una PWA personalizada
 
 
 
