@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Reto App Noticias
+Bienvenido(a) a tu primera asignación. A continuación te explicamos los detalles 🔥🎉
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Comencemos 🚀
+El objetivo es que puedas desarrollar una pequeña aplicación usando ReactJS ⚛️ y hacer uso de una API REST por ejemplo de noticias.
 
-In the project directory, you can run:
+_Version Desktop_
 
-### `npm start`
+![Alt text](https://xn--jorgedueas-09a.com/img/vista_desktop.png "Title")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_Version Mobile_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Alt text](https://xn--jorgedueas-09a.com/img/vista_mobile.png "Title")
 
-### `npm test`
+> - Implementar un cabecera de página donde mostrará un logo o título.
+> - En la misma cabecera al lado derecho mostrar los botones para que el usuario pueda registrarse o iniciar sesión. (opcional - mostrar los componentes vistos en el primer taller).
+> - Cada noticia debe mostrar su foto, título, descripción y enlace a su fuente.
+> - En la parte superior colocar una noticia como la más destacada (la más grande) y a su costado derecho 3 noticias relacionadas.
+> - En la parte inferior mostrar las demás noticias listadas de forma ordenada por fecha.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Indicaciones 📋
+La aplicación deberá ser desarrollada con ReactJS ⚛️, si tienes mas Power 💪😼 puedes hacer uso de Redux para mantener el estado de la aplicación y de React-Router para que cada vista sea una página distinta.
+- Antes de comenzar a escribir el código, deberás crear tu lista de tareas que vas a realizar durante el desarrollo.
+- Haz uso de commit's para detallar cada tarea y/o subtarea.
+- Sube tu aplicación a Github.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Data 💾
+La data la obtendremos de un servicios gratuito de noticias el cual nos proporcionará la información que necesitemos a través de sus APIS:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Link de servicios NEWS API: [https://newsapi.org/](https://newsapi.org/)
 
-### `npm run eject`
+NOTA: necesitarás registrate en el sitio web del servicio para obtener tu API KEY. También se hizo un demo listando las noticias dentro de este proyecto inicial.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Alt text](https://xn--jorgedueas-09a.com/img/demo_codigo_base.png "Title")
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### UI 🎨
+- El concepto de diseño lo encontrarás en el siguiente LINKS:
+ [Versión Desktop](https://xn--jorgedueas-09a.com/img/vista_desktop.png),  [Versión Mobile](https://xn--jorgedueas-09a.com/img/vista_mobile.png)
+- La aplicación debe estar orientada hacia el lector/usuario
+- Elige los colores y tipografía que desees y realiza las mejoras que creas conveniente.
+- El detalle de cada noticia lo puedes mostrar dentro de tu App o simplemente haciendo en enlace (leer más) a  la fuente.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Recomendaciones 🎩
+- Usa el [create-react-app](https://github.com/facebook/create-react-app)
+- Usa sintaxis de ES6+
+- No abuses de las librerías externas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Puntos a favor (No Obligatorios) 🦸🏻‍♂️
+- En el README.md describe y explica las características de tu aplicación.
+- Puedes agregar el sistema de Autenticación con ARC Identity (vista en la Presentación anterior)
+- Puedes usar otra API (películas, vuelos, artículos, etc).
+- Realiza test de tus componentes.
+- Despliega tu aplicación usando [Netlify](https://www.netlify.com), [Heroku](https://www.heroku.com), [Zeit](https://zeit.co) o el que desees.
+- La aplicación es una PWA personalizada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Nos vemos en la presentación 🚀🔥🚀🤞
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Instalación 🔧
 
-### Deployment
+_Comandos justos y necesarios_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+npm install
+```
 
-### `npm run build` fails to minify
+_Generando Start_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run start
+```
+
+_Generando Build_
+
+```
+npm run build
+```
