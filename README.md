@@ -24,6 +24,9 @@ La aplicación deberá ser desarrollada con ReactJS ⚛️, si tienes mas Power 
 ### Data 💾
 La data la obtendremos de un servicios gratuito de noticias el cual nos proporcionará la información que necesitemos a través de sus APIS:
 
+
+> Si presentas problemas con la API aqui puedes obtener otra alternativa  —  [enlace en línea](https://saurav.tech/NewsAPI/) 
+
 Link de servicios NEWS API: [https://newsapi.org/](https://newsapi.org/)
 
 NOTA: necesitarás registrate en el sitio web del servicio para obtener tu API KEY. También se hizo un demo listando las noticias dentro de este proyecto inicial.
