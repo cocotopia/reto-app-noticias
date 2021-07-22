@@ -6,14 +6,13 @@ function App() {
   const [listNews, setListNews] = useState({});
 
   useEffect(() => {
-    // DEMO: Para obtener los datos de la API en nuestro localhost usar un proxy
+    // DEMO: Para obtener los datos de la API en nuestro localhost
     // URL API: https://newsapi.org/v2/everything?q=tesla&from=2021-06-19&sortBy=publishedAt&apiKey=0c76dce6efd947d0bd1f6ac1f4324b9e
 
-    const proxyUrl = "https://cors-anywhere.herokuapp.com/"; // URL PROXY (si no te permite por temas de permisos)
     const qInTitle = "tesla"; // noticias sobre "tesla"
     const from = "2021-07-19"; // fecha noticias publicadas (desde)
     const apiKey = "0c76dce6efd947d0bd1f6ac1f4324b9e"; // reemplazar tu API KEY
-    const url = `${proxyUrl}https://newsapi.org/v2/everything?qInTitle=${qInTitle}&from=${from}language=en&apiKey=${apiKey}`;
+    const url = `https://newsapi.org/v2/everything?qInTitle=${qInTitle}&from=${from}language=en&apiKey=${apiKey}`;
     const request = new Request(url);
 
     fetch(request)
