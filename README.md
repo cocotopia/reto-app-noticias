@@ -5,7 +5,7 @@ Bienvenido(a) a tu primera asignación. A continuación te explicamos los detall
 ## Comencemos 🚀
 El objetivo es que puedas desarrollar una pequeña aplicación usando ReactJS ⚛️ y hacer uso de una API REST por ejemplo de noticias.
 
-![Alt text](https://xn--jorgedueas-09a.com/img/reto_preview.png "Title")
+![Alt text](https://cocotopia.github.io/img/reto_preview.png "Title")
 
 > - Implementar un cabecera de página donde mostrará un logo o título.
 > - En la misma cabecera al lado derecho mostrar los botones para que el usuario pueda registrarse o iniciar sesión. (opcional - mostrar los componentes vistos en el primer taller).
@@ -31,12 +31,12 @@ Link de servicios NEWS API: [https://newsapi.org/](https://newsapi.org/)
 
 NOTA: necesitarás registrate en el sitio web del servicio para obtener tu API KEY. También se hizo un demo listando las noticias dentro de este proyecto inicial.
 
-![Alt text](https://xn--jorgedueas-09a.com/img/demo_codigo_base.png "Title")
+![Alt text](https://cocotopia.github.io/img/demo_codigo_base.png "Title")
 
 
 ### UI 🎨
 - El concepto de diseño lo encontrarás en el siguiente LINKS:
- [Versión Desktop](https://xn--jorgedueas-09a.com/img/vista_desktop.png),  [Versión Mobile](https://xn--jorgedueas-09a.com/img/vista_mobile.png)
+ [Versión Desktop](https://cocotopia.github.io/img/vista_desktop.png),  [Versión Mobile](https://cocotopia.github.io/img/vista_mobile.png)
 - La aplicación debe estar orientada hacia el lector/usuario
 - Elige los colores y tipografía que desees y realiza las mejoras que creas conveniente.
 - El detalle de cada noticia lo puedes mostrar dentro de tu App o simplemente haciendo en enlace (leer más) a  la fuente.
